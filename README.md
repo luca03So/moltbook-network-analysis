@@ -9,7 +9,7 @@ This repository contains the main code and a reduced example dataset used to rep
 ├── data/
 ├── notebooks/
 ├── output/
-├── Informations.md
+├── README.md
 
 ```
 
