@@ -84,14 +84,14 @@ The following notebooks were added after the peer-review process to document the
   **Output:** summary tables of power-law fits for the Full, Early, and Late periods, including `xmin`, `alpha`, standard error, tail size, KS statistic, bootstrap goodness-of-fit p-value, and comparisons with alternative distributions.
 
 - `05_Robustness_active_nodes.ipynb`  
-  **Input:** `interactions.parquet (or dati_scaricati.db if unavailable).  
+  **Input:** `interactions.parquet (or main database if unavailable).  
   **Output:** `RobustezzaNoIsolati.xlsx`, containing the daily robustness results on non-isolated nodes.
 
 - `06_figure_robustness.ipynb`  
-  **Input:** `RobustezzaNoIsolati.xlsx` and `DinamicaFinale1.xlsx` (`daily_all_metrics`).  
+  **Input:** `RobustezzaNoIsolati.xlsx` and `graph_dynamics_timeseries.xlsx` (`daily_all_metrics`).  
   **Output:** the revised robustness figures, including normalized robustness curves.
 
 - `07_ttest_cutoff_analysis.ipynb`  
-  **Input:** `DinamicaFinale.xlsx` (`daily_all_metrics`).  
+  **Input:** `graph_dynamics_timeseries.xlsx` (`daily_all_metrics`).  
   **Output:** results of the Welch t-tests over all temporal cutoffs, including the analysis of the 09/02/2026 split and the corresponding t-test figures.
 
